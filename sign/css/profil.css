@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #85a1c1;
+	overflow-x: hidden;
+}
+header{
+	background-color: white;
+	width: 100vw;
+	height: 10vh;
+	border-bottom: 2px solid black;	
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.logo{
+	height: 10vh;
+	border-right: 2px solid black;
+}
+.p_info{
+	font-size: 32px;
+	width: 80vw;
+	height: auto;
+	padding: 2%;
+}
+.profil{
+	height: 10vh;
+	width: 15vw;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+
+}
+.profil:hover{
+	background: #3f4d63;
+	color: white;
+	transition: 1s linear;
+}
+.img_profil{
+	height: 10vh;
+	border-right: 2px solid black;
+}
+.p_profil{
+	font-size: 2vw;
+	display: inline-block;
+	position: absolute;
+	right: 2vw;
+	top: 2.5vh;
+}
+.menu_div{
+	display: inline-block;
+	width: 10vw;
+	height: 10vh;
+	position: absolute;
+	border-right: 2px solid black;
+}
+.menu_div_1{
+	left: 0vh;
+}
+.menu_div_2{
+	left: 20vh;
+	width: 15vw;
+}
+.menu_div_3{
+	left: 49vh;
+}
+.p_2{
+	right: 1.25vw;
+}
+
+.main_block{
+	width: 76vw;
+	margin-left: 12vw;
+	background: #274b69;
+	height: 150vh;
+	border-left: 5px solid #202022;
+	border-right: 5px solid #202022;
+}
+.bg{
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	background-image: url(../../media/images/plan-road-trip-tips-ideas.jpg);
+	width: 100vw;
+	height: 100vh;
+	filter: blur(20px);
+}
+.img{
+	width: 15vw;
+	height: 40vh;
+	background-image: url(../4x6.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-left: 4vw;
+	position: relative;
+	top: 5vh;
+	display: inline-block;
+	border: 3px solid #202022;
+}
+.form{
+	width: 50vw;
+	height: 40vh;
+	background: #edf8f0;
+	position: relative;
+	top: 5vh;
+	margin-left: 3vw;
+	display: inline-block;
+	border: 3px solid #202022;
+}
+.p_form{
+	position: absolute;
+	font-size: 40px;
+	text-align: center;
+	left: 1vw;
+	color: #202022;
+}
+.p_form_1{
+
+}
+.p_form_2{
+	top: 6vh;
+}
+.but{
+  background: #274b69;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  box-shadow: 0 0 0 2px white;
+  padding: 30px 0;
+  min-width: 12vw;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  overflow: hidden;
+  bottom: 2vh;
+  left: 0.6vw;
+}
+span {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  z-index: 5;
+}
+.but:before, .but:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.but:before{
+  transform: translateX(-100%);
+  background: #c6ccd8;
+  transition: transform .3s cubic-bezier(.55,.055,.675,.19);
+}
+.but:after {
+  background: #202022;
+  transform: translateX(100%);
+  transition: transform .3s cubic-bezier(.16,.73,.58,.62) .3s;
+}
+.but:hover:before, .but:hover:after {
+	transform: translateX(0);
+}
+.histori{
+	width: 68.85vw;
+	height: auto;
+	background: #c6ccd8;
+	margin-left: 4vw;
+	margin-top: 10vh;
+	border: 3px solid #202022;
+	border-bottom: none;
+}
+.p_name{
+	font-size: 40px;
+	width: 68.85vw;
+	text-align:center;
+}
+.histori_div{
+	width: 68.85vw;
+	height: 10vh;
+	background: #c6ccd8;
+	border-bottom: 3px solid #202022;
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+}
+.id{
+	height: 10vh;
+	border-right: 3px solid #202022;
+}
+.s{
+	height: 10vh;
+	border-right: 3px solid #202022;
+}
+.date{
+	height: 10vh;
+	border-right: 3px solid #202022;
+}
+.class{
+	height: 10vh;
+	border-right: 3px solid #202022;
+}
+.cost{
+	height: 10vh;
+}
+.histori_main_div{
+	height: 6vh;
+}
+.p_histori_div{
+	font-size: 32px;
+	text-align: center;
+}
+.p_h_mm{
+	margin-top: 1vh;
+}
+.p_h_m{
+	margin-top: 3vh;
+}

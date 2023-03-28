@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #85a1c1;
+	overflow-x: hidden;
+}
+header{
+	background-color: white;
+	width: 100vw;
+	height: 10vh;
+	border-bottom: 2px solid black;	
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.logo{
+	height: 10vh;
+	border-right: 2px solid black;
+}
+.profil{
+	height: 10vh;
+	width: 15vw;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+
+}
+.profil:hover{
+	background: #3f4d63;
+	color: white;
+	transition: 1s linear;
+}
+.img_profil{
+	height: 10vh;
+	border-right: 2px solid black;
+}
+.p_profil{
+	font-size: 2vw;
+	display: inline-block;
+	position: absolute;
+	right: 2vw;
+	top: 2.5vh;
+}
+.menu_div{
+	width: 10vw;
+	height: 10vh;
+	position: absolute;
+	border-right: 2px solid black;
+}
+.menu_div_1{
+	left: 0vw;
+}
+.menu_div_2{
+	width: 16vw;
+}
+.menu_div_3{
+
+}
+.p_2{
+	right: 1.25vw;
+}
+.a_menu{
+	position: absolute;
+	width: 10vw;
+	height: 10vh;
+}
+.a_menu_1{
+
+}
+.a_menu_2{
+	left: 14.5vw;
+	width: 15vw;
+}
+.a_menu_3{
+	left: 30vw;
+}

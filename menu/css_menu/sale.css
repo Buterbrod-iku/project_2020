@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #85a1c1;
+	overflow-x: hidden;
+}
+header{
+	background-color: white;
+	width: 100vw;
+	height: 10vh;
+	border-bottom: 2px solid black;	
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.logo{
+	height: 10vh;
+	border-right: 2px solid black;
+}
+.p_info{
+	font-size: 32px;
+	width: 80vw;
+	height: auto;
+	padding: 2%;
+}
+.profil{
+	height: 10vh;
+	width: 15vw;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+
+}
+.profil:hover{
+	background: #3f4d63;
+	color: white;
+	transition: 1s linear;
+}
+.img_profil{
+	height: 10vh;
+	border-right: 2px solid black;
+}
+.p_profil{
+	font-size: 2vw;
+	display: inline-block;
+	position: absolute;
+	right: 2vw;
+	top: 2.5vh;
+}
+.menu_div{
+	width: 10vw;
+	height: 10vh;
+	position: absolute;
+	border-right: 2px solid black;
+}
+.menu_div_1{
+	left: 0vw;
+}
+.menu_div_2{
+	width: 16vw;
+}
+.menu_div_3{
+
+}
+.p_2{
+	right: 1.25vw;
+}
+.a_menu{
+	position: absolute;
+	width: 10vw;
+	height: 10vh;
+}
+.a_menu_1{
+
+}
+.a_menu_2{
+	left: 14.5vw;
+	width: 15vw;
+}
+.a_menu_3{
+	left: 30vw;
+}
+
+.div_teg{
+	width: 100vw;
+}
+.p_teg{
+	text-align: center;
+	padding-top: 7vh;
+	font-size: 60px;
+	color: black;
+	font-family: ‘Open Sans’, sans-serif; 
+	font-weight: 500; 
+	line-height: 24px; 
+	margin: 0 0 14px;
+	text-shadow: 2px 2px 1px #c6ccd8;
+	padding-bottom: 4vh;
+}
+.hr_big{
+	width: 40vw;
+	height: 0vh;
+	border: 2.5px solid black;
+	position: absolute;
+	left: 30vw;
+	top: 23.5vh;
+	background: black;
+	border-radius: 20px;
+}
+.hr{
+	width: 25vw;
+	height: 0vh;
+	border-bottom: 4px solid black;
+	position: absolute;
+	left: 37.5vw;
+	top: 27vh;
+}
+.div_sale{
+	width: 100vw;
+	height: 200vh;
+	background: ;
+	margin-top: 70px;
+}
+.block_sale{
+	width: 80vw;
+	height: 40vh;
+	background: green;
+	margin-left: 10vw;
+	border:5px solid black;
+	margin-bottom: 10vh;
+}
+.img_sale{
+	width: 20vw;
+	height: 40vh;
+	background-image: url(../../media/images/promotions/promotion4.jpg);
+	background-position: center;
+	background-size: cover;
+	border-right: 5px solid black;
+	display: inline-block;
+	position: absolute;
+}
+.name_sale{
+	width: 60vw;
+	height: 8vh;
+	background: #abbcc8;
+	margin-left: 20vw;
+	border-bottom: 5px solid black;
+}
+.text_sale{
+	width: 60vw;
+	height: 31.5vh;
+	background: #dde2e3;
+	margin-left: 20vw;
+	display: inline-block;
+}
+.day{
+	width: auto;
+	height: 7vh;
+	background: #3f4d63;
+	margin-top: 7.8vh;
+	display: inline-block;
+	margin-left: 0.25vw;
+	border-top: 5px solid black;
+}
+.day_sale_1{
+	display: inline-block;
+	background: #d1d9dc;
+	width: 5vw;
+	height: 7vh;
+	border-right: 5px solid black;
+	font-family: ‘Open Sans’, sans-serif;
+}
+.day_sale_2{
+	display: inline-block;
+	background: #9d9c9a;
+	width: 5vw;
+	height: 7vh;
+	margin-left: -5px;
+	border-right: 5px solid black;
+	font-family: ‘Open Sans’, sans-serif;
+}
+.p_sale_block{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 1.5vh;
+}
+.price{
+	width: 10vw;
+	height: 7vh;
+	background: #9d9c9a;
+	float: right;
+	display: inline-block;
+	margin-top: 7.8vh;
+	border-top: 5px solid black;
+	border-left: 5px solid black;  
+}
+.p_price{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 1.5vh;
+	font-family: ‘Open Sans’, sans-serif;
+}
+.p_name_sale{
+	font-size: 50px;
+	text-align: center;
+	font-family: ‘Open Sans’, sans-serif;
+}
+.text_text{
+	font-size: 30px;
+	margin: 10px;
+}
+.a{
+	display: inline-block;
+	margin-left: 14vw;
+	font-size: 16px;
+	font-family: ‘Open Sans’, sans-serif;
+}
+footer{
+	background: #202022;
+	width: 100vw;
+	height: 30vh;
+	border-top: 5px solid black;
+}
+.p_link{
+	font-size: 25px;
+	color: white;
+	position: relative;
+	left: 6vw;
+	max-width: 20vw;
+}
+.p_p1{
+	top: 2vh; 
+}
+.p_p2{
+	top: 4vh; 
+}
+.p_p3{
+	top: 6vh; 
+}
+.p_p4{
+	top: 8vh; 
+}
+.kont{
+	float: right;
+	width: 20vw;
+
+}
+.p_kont{
+	font-size: 24px;
+	color: white;
+	margin: 15px;
+	margin-left: 3px;
+}
+.h_1{
+	color: #c6ccd8;
+	margin-left: 5.5vw;
+}
+.h_2{
+	color: #c6ccd8;
+	margin-top: -15vh;
+}
+.def{
+	position: relative;
+	bottom: -10vh;
+	left: 6vw;
+	font-size: 18px;
+	color: #c6ccd8;
+}
